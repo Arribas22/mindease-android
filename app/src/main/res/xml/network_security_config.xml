@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Permite tráfico HTTPS hacia HuggingFace y sus CDNs para la descarga del modelo Gemma.
+    El resto del tráfico sigue siendo HTTPS por defecto.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <!-- HuggingFace principal y CDN (cdn-lfs.huggingface.co, etc.) -->
+        <domain includeSubdomains="true">huggingface.co</domain>
+        <!-- CDN de Amazon S3 usado por HuggingFace para descargas grandes -->
+        <domain includeSubdomains="true">amazonaws.com</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MindEase</string>
+    <string name="app_tagline">Tu bienestar emocional, en tu dispositivo</string>
+    <string name="disclaimer">MindEase no sustituye a un profesional de salud mental. En caso de crisis llama al 024 (gratuito, 24h).</string>
+    <string name="crisis_phone">024</string>
+    <string name="crisis_name">Línea de Atención a la Conducta Suicida</string>
+    <string name="esperanza_phone">717 003 717</string>
+    <string name="esperanza_name">Teléfono de la Esperanza</string>
+
+    <!-- Monetización -->
+    <string name="premium_title">MindEase Premium</string>
+    <string name="premium_desc">Chat IA ilimitado · Sin anuncios · Insights avanzados</string>
+    <string name="watch_ad_title">Ver un anuncio</string>
+    <string name="watch_ad_desc">Desbloquea 2 horas de chat ilimitado gratis</string>
+    <string name="daily_limit_reached">Has usado tus mensajes gratuitos de hoy</string>
+
+    <!-- Modelo IA -->
+    <string name="model_download_title">Modelo de IA</string>
+    <string name="model_download_desc">Descarga Gemma 3 1B (~600 MB) para activar el chat IA avanzado. Solo se descarga una vez y funciona sin conexión.</string>
+    <string name="model_download_wifi_warning">Recomendamos descargar con WiFi</string>
+    <string name="model_download_btn">Descargar modelo</string>
+    <string name="model_downloading">Descargando… %1$d%%</string>
+    <string name="model_ready">Modelo listo ✓</string>
+    <string name="model_error">Error al descargar. Inténtalo de nuevo.</string>
+</resources>
